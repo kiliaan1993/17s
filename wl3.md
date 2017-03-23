@@ -12,6 +12,6 @@
 
 **Aufgabe:**
 
-Die Tutorials belegen und zwei offene Fragen zum Gelernten an uns **beide** schicken.
+Die Tutorials belegen und **zwei offene Fragen** zum Gelernten bis Dienstag, den 28.3. (abends) an uns **beide** schicken.
 
 E-Mails: [Klaus Förster](mailto:klaus.foerster@uibk.ac.at), [Bernd Öggl](mailto:bernd.oeggl@uibk.ac.at)
