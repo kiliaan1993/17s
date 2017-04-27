@@ -9,7 +9,7 @@
 * URL: http://data.wien.gv.at/daten/geo?service=WFS&request=GetCapabilities&version=1.1.0
 * URL kopieren und QGIS Desktop starten
 
-### QGIS Desktop
+### QGIS 2.8 Desktop (Wien)
 
 * Layer / Add Layer / WFS Layer / New
     * Name: data.wien.gv.at
