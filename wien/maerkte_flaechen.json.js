@@ -1,3 +1,5 @@
+// Quelle: https://www.data.gv.at/katalog/dataset/aab0a0be-89e6-442e-8cf9-e762bd18f76b
+// Lizenz: Creative Commons Namensnennung 3.0 Österreich, Stadt Wien – data.wien.gv.at
 window.maerkteFlaechen={
     "type": "FeatureCollection",
     "totalFeatures": 54,

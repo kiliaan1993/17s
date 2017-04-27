@@ -1,3 +1,5 @@
+// Quelle: https://www.data.gv.at/katalog/dataset/f7bd721a-1f72-4bef-a38c-792f59cc8fe3
+// Lizenz: Creative Commons Namensnennung 3.0 Österreich, Stadt Wien – data.wien.gv.at
 window.spaziergangPunkte={
     "type": "FeatureCollection",
     "totalFeatures": 126,

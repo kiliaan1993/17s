@@ -1,3 +1,5 @@
+// Quelle: https://www.data.gv.at/katalog/dataset/523ba2e4-8c55-4dde-8acf-39e3621811b0
+// Lizenz: Creative Commons Namensnennung 3.0 Österreich, Stadt Wien – data.wien.gv.at
 window.citybikePunkte={
     "type": "FeatureCollection",
     "totalFeatures": 121,

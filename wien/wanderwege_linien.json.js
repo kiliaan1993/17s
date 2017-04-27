@@ -1,3 +1,5 @@
+// Quelle: https://www.data.gv.at/katalog/dataset/36886c25-6961-4055-96b2-b3e8b138e588
+// Lizenz: Creative Commons Namensnennung 3.0 Österreich, Stadt Wien – data.wien.gv.at
 window.wanderwegeLinien={
     "type": "FeatureCollection",
     "totalFeatures": 129,
