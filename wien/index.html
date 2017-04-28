@@ -160,9 +160,35 @@
             return tipp;
         }).addTo(map);
 
-        // GeoJSON Daten der Märkte hinzufügen - https://www.data.gv.at/suche/?search-term=wien+m%C3%A4rkte&searchIn=catalog
-        // TODO: Flächen nach property INFOS_NACHHALTIG einfärben
-        // TODO: HTML-Popupfenster mit NAME, MARKTKATEGORIE, INFOS_NACHHALTIG, URL_MARKTAMT (als Link)
+        // GeoJSON Daten der Märkte nach Markttyp mit Popup hinzufügen
+        var areas = L.geoJSON(window.maerkteFlaechen, {
+            style:  function (feature) {
+                var farbe = "";
+                var linie = "";
+                if (feature.properties.INFOS_NACHHALTIG === 'Produzentenmarkt') {
+                    farbe = "maroon";
+                    linie = "red";
+                } else if (feature.properties.INFOS_NACHHALTIG === 'Produzentenmarkt, Bio-Eck') {
+                    farbe = "green";
+                    linie = "lime";
+                } else {
+                    farbe = "blue";
+                    linie = "cyan";
+                }
+                return {
+                    color : farbe,
+                    stroke : linie
+                }
+            }
+        }).bindPopup(function (layer) {
+            var markup = '<h3>' + layer.feature.properties.NAME + '</h3>';
+            markup += '<p>' + layer.feature.properties.MARKTKATEGORIE;
+            markup += ' (' + layer.feature.properties.INFOS_NACHHALTIG + ')';
+            markup += '<p><a href="' + layer.feature.properties.URL_MARKTAMT + '">Infos beim Marktamt</a></p>'
+            return markup;
+        }, {
+            sticky : true
+        }).addTo(map);
 
         // WMTS-Layer Auswahl und Marker Auswahl Overlay hinzufügen
         L.control.layers({
