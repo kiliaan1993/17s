@@ -127,9 +127,9 @@
             // TODO: Citybike Marker als Icons implementieren (https://www.data.gv.at/katalog/dataset/770f9237-9a7f-45e4-9647-aacf35ddee06)
 
         }).bindPopup(function(layer) {
-            // TODO: HTML-Popupfenster mit STATION und BEZIRK
-
-            return layer.feature.properties.STATION;
+            var markup = layer.feature.properties.STATION;
+            markup += ' (' + layer.feature.properties.BEZIRK + '. Bezirk)';
+            return markup;
         }).addTo(map);
 
         // GeoJSON Daten der Wanderwege laden, nach Typ einfärben und Popup erstellen
