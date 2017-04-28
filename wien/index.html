@@ -162,6 +162,13 @@
 
         // GeoJSON Daten der Märkte nach Markttyp mit Popup hinzufügen
         var areas = L.geoJSON(window.maerkteFlaechen, {
+            filter : function (feature) {
+                if (feature.geometry.type === 'Polygon') {
+                    return true;
+                } else {
+                    return false;
+                }
+            },
             style:  function (feature) {
                 var farbe = "";
                 var linie = "";
