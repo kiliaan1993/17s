@@ -66,6 +66,10 @@
             osm: L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 subdomains: ['a', 'b', 'c'],
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }),
+            lb1956: L.tileLayer("http://{s}.wien.gv.at/wmts/lb1956/grau/google3857/{z}/{y}/{x}.jpeg", {
+                subdomains: ['maps', 'maps1', 'maps2', 'maps3', 'maps4'],
+                attribution: 'Datenquelle: Stadt Wien – <a href="data.wien.gv.at">data.wien.gv.at</a>'
             })
         };
 
@@ -153,7 +157,8 @@
             "basemap.at - OVERLAY": layers.bmapoverlay,
             "basemap.at - HIGH-DPI": layers.bmaphidpi,
             "basemap.at - ORTHOFOTO": layers.bmaporthofoto30cm,
-            "OpenStreetMap": layers.osm
+            "OpenStreetMap": layers.osm,
+            "Wien - Luftbild 1956" : layers.lb1956
         }, {
             "Stadtspaziergang Stationen": punkteSpaziergang,
             "Citybike Standorte": punkteCitybike,
