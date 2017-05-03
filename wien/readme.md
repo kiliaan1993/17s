@@ -57,7 +57,7 @@
         * `layer.feature.properties.NAME` statt `layer.feature.properties.description`
         * Ausschnitt auf die Punkte setzen
 
-### Aubaustufen
+### Ausbaustufen
 
 1. Popupfenster ergänzen um BEMERKUNG, OBJECTID, KATEGORIE, ADRESSE, WEITERE_INF (als Link)
 
