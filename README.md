@@ -14,8 +14,8 @@
 * *Osterferien*
 * 26.04.  Leaflet (GeoJSON & Web-APIs)
 * 03.05.  Leaflet (Marker)
-* 10.05.  Leaflet (Thematische Darstellung)
-* 17.05.  Leaflet (Interaktion im Browser)
+* 17.05.  Leaflet (Thematische Darstellung)
+* 24.05.  Leaflet (Interaktion im Browser)
 * *Projektphase*
 * 14.06.  Präsentationen I
 * 21.06.  Präsentationen II
