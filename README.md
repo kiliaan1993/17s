@@ -13,12 +13,12 @@
 * 05.04.  Leaflet (Basics & WMTS)
 * *Osterferien*
 * 26.04.  Leaflet (GeoJSON & Web-APIs)
-* 03.05.  Leaflet (Marker)
-* 17.05.  Leaflet (Thematische Darstellung)
-* 24.05.  Leaflet (Interaktion im Browser)
+* 03.05.  Leaflet (Marker, Plugins)
+* 17.05.  Leaflet (Plugins, GPX)
+* 24.05.  Leaflet (Thematische Darstellung)
+* 31.05.  Leaflet (Interaktion im Browser)
 * *Projektphase*
-* 14.06.  Präsentationen I
-* 21.06.  Präsentationen II
+* 21.06.  Präsentationen
 
 ### Anforderungen
 * 1/3 **Anwesenheit & aktive Mitarbeit**: maximal 2 x fehlen
